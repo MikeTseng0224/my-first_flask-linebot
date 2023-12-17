@@ -90,7 +90,7 @@ git init
 git add .
 git commit -m "專案第一次上架"
 heroku git:remote -a Heroku的專案名稱
-git push heroku master
+git push origin main
 ```
 
 ## 更新專案至Heroku
@@ -98,5 +98,5 @@ git push heroku master
 ```
 git add .
 git commit -m "寫入你做的修改"
-git push heroku master
+git push origin main
 ```
